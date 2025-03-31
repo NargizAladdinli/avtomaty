@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.4;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+input, button{
+    border: none;
+    outline: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width:320px) {
+    .container{
+        max-width: 100%;
+    }
+}
+@media (min-width:480px) {
+    .container{
+        max-width: 440px;
+    }
+}
+@media (min-width:576px) {
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width:768px) {
+    .container{
+        max-width: 760px;
+    }
+}
+@media (min-width:992px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width:1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+@media (min-width:1400px) {
+    .container{
+        max-width: 1320px;
+    }
+}
+@media (min-width:1600px) {
+    .container{
+        max-width: 1440px;
+    }
+}
+@media (min-width:1920px) {
+    .container{
+        max-width: 1600px;
+    };
+}
+@media (min-width:2560px) {
+    .container{
+        max-width: 1800px;
+    }
+}
+@media (min-width:3840px) {
+    .container{
+        max-width: 2200px;
+    }
+}
