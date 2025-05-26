@@ -1,0 +1,39 @@
+.advantages{
+    background-color: #F6F6F6;
+    padding: 10px 0;
+}
+.advantages .title h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+.advantages .cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.advantages .cards .card{
+    width: 33.33333%;
+    padding: 30px;
+}
+.advantages .cards .card .cardItems{
+    padding: 35px 40px;
+    text-align: center;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    background-color: #fff;
+    position: relative;
+}
+.advantages .cards .card .cardItems .context p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.advantages .cards .card .cardItems:nth-child(1) .decore{
+    width: 100px;
+    height: 150px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
