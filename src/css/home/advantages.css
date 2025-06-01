@@ -23,6 +23,7 @@
     border-radius: 15px;
     background-color: #fff;
     position: relative;
+    min-height: 220px;
 }
 .advantages .cards .card .cardItems .context p{
     font-weight: 400;
@@ -30,10 +31,45 @@
     line-height: 24px;
     margin-top: 15px;
 }
-.advantages .cards .card .cardItems:nth-child(1) .decore{
+.advantages .cards .card:nth-child(1) .cardItems .decore{
     width: 100px;
     height: 150px;
     right: 0;
     bottom: 0;
+    position: absolute;
+}
+.advantages .cards .card:nth-child(2) .cardItems .decore{
+    width: 250px;
+    height: 72px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.advantages .cards .card:nth-child(3) .cardItems .decore{
+    width: 184px;
+    height: 83px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.advantages .cards .card:nth-child(4) .cardItems .decore{
+    width: 140px;
+    height: 123px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.advantages .cards .card:nth-child(5) .cardItems .decore{
+    width: 117px;
+    height: 107px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.advantages .cards .card:nth-child(6) .cardItems .decore{
+    width: 104px;
+    height: 219px;
+    right: 0;
+    top: 0;
     position: absolute;
 }
